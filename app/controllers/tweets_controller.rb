@@ -12,7 +12,7 @@ class TweetsController < ApplicationController
   end
 
   def create
-    Tweet.create(tweet_params)
+    Tweet.create(create_tweet_params)
   end
 
   def show
